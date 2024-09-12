@@ -1,0 +1,84 @@
+@import url("https://use.typekit.net/miw7byt.css");
+
+:root {
+  font-family: "area-variable", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  /*
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   */
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  padding: 2rem;
+}
+
+
+h4, p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+span.room {
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-16.5px);
+  font-size: 8px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.84);
+  padding: 0 2px;
+  color: white;
+}
+
+.ec-event-time {
+  padding: 1px 0;
+  font-size: 0.65rem;
+}
+
+.ec-time {
+  font-size: 0.8rem;
+}
+
+div.ec-event-body {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+}
+
+
+.ec-event-title {
+  overflow: unset!important;
+}
+
+.ec-event {
+  overflow: hidden;
+}
+
+.ec-events {
+  margin: 0 1px 0 1px!important;
+}
+
+.ec-sidebar {
+  max-width: 30px !important;
+}
+
+.ec-header {
+  border-bottom: none!important;
+}
